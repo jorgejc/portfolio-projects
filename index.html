@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Mi primera web</title>
 </head>
 
@@ -14,6 +15,9 @@
             <div class="logo">
                <h1>Curso <span>IW1</span> </h1> 
             </div>
+            <button id="menu-toggle" aria-label="Menú de navegación">
+                <i class="fas fa-bars"></i>
+            </button>
             <ul class="nav-links">
                 <li><a href="" class="active">Inicio</a></li>
                 <li><a href="">Proyectos</a></li>
@@ -41,7 +45,184 @@
     </section>
 
     <section id="projects">
-        
+        <div class="section-header">
+            <h2>Proyectos Destacados</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, libero.</p>
+        </div>
+        <div class="filter-labs">
+            <button class="filter-btn active">Todos</button>
+            <button class="filter-btn">Web</button>
+            <button class="filter-btn">Móvil</button>
+            <button class="filter-btn">IA</button>
+        </div>
+        <div class="projects-grid">
+            <!-- Proyecto 1 -->
+             <article class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img"></div>
+                    <div class="project-overlay">
+                        <button class="view-btn">Ver detalles</button>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portal de Aprendizaje Adaptativo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, voluptas.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+
+                    </div>
+                </div>
+             </article>
+
+             <!-- Proyecto 2 -->
+             <article class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img"></div>
+                    <div class="project-overlay">
+                        <button class="view-btn">Ver detalles</button>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Aplicación de Realidad Aumentada</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, voluptas.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+
+                    </div>
+                </div>
+             </article>
+
+             <!-- Proyecto 3 -->
+             <article class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img"></div>
+                    <div class="project-overlay">
+                        <button class="view-btn">Ver detalles</button>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Sistema de Predicción Climática</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, voluptas.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+
+                    </div>
+                </div>
+             </article>
+
+             <!-- Proyecto 4 -->
+             <article class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img"></div>
+                    <div class="project-overlay">
+                        <button class="view-btn">Ver detalles</button>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Dashboard Analítico</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, voluptas.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+
+                    </div>
+                </div>
+             </article>
+
+             <!-- Proyecto 5 -->
+             <article class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img"></div>
+                    <div class="project-overlay">
+                        <button class="view-btn">Ver detalles</button>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Asistente de Salud Personal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, voluptas.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+
+                    </div>
+                </div>
+             </article>
+
+             <!-- Proyecto 6 -->
+             <article class="project-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img"></div>
+                    <div class="project-overlay">
+                        <button class="view-btn">Ver detalles</button>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Sistema de Reconocimiento Facial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, voluptas.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+
+                    </div>
+                </div>
+             </article>
+
+        </div>  
+    </section>
+
+    <section id="features">
+        <div class="section-header">
+            <h2>Nuestras Características</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab unde numquam tempore quae ut voluptates!</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Código Limpio</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, dolore.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Diseño Responsivo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, dolore.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h3>Optimización</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, dolore.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h3>Seguridad</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, dolore.</p>
+            </div>
+        </div>
     </section>
     
     
